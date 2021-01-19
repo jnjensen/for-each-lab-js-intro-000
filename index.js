@@ -1,5 +1,3 @@
-function iterativeLog(array){
-  array.forEach(console.log("${index} : ${element}"))
+function irterativeLog(array){
+  console.log(array);
 }
-
-iterativeLog(["blue", "green", "purple", "orange"])
