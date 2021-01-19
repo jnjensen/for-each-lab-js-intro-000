@@ -7,5 +7,6 @@ function iterativeLog(array) {
 function iterate(callback) {
   var list = ["blue", "purple", "orange", "green"]
   
-  list.forEach()
+  list.forEach(callback)
+  return list
 }
